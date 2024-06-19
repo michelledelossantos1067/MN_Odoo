@@ -9,6 +9,20 @@
           <field name="apellido"/>
           <field name="email"/>
           <field name="cedula"/>
+          <field name="telefono"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="lsd_sale.compra_list">
+      <field name="name">Compra lista</field>
+      <field name="model">lsd_sale.compra</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="pantalones"/>
+          <field name="blusas"/>
+          <field name="vestidos"/>
+      
         </tree>
       </field>
     </record>

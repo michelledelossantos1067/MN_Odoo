@@ -2,8 +2,14 @@
 <odoo>
 
     <record model="ir.actions.act_window" id="lsd_sale.action_window">
-        <field name="name">lsd_sale window</field>
+        <field name="name">Usuarios</field>
         <field name="res_model">lsd_sale.lsd_sale</field>
+        <field name="view_mode">tree,form</field>
+      </record>
+      
+      <record model="ir.actions.act_window" id="lsd_sale.compra_action_window">
+        <field name="name">Compras</field>
+        <field name="res_model">lsd_sale.compra</field>
         <field name="view_mode">tree,form</field>
       </record>
 

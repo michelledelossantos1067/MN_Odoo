@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record id="access_lsd_sale_lsd_sale" model="ir.model.access">
+        <field name="name">Access lsd_sale.lsd_sale</field>
+        <field name="model_id" ref="model_lsd_sale_lsd_sale"/>
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="True"/>
+    </record>
+
+    
+    <record id="access_lsd_sale_compra" model="ir.model.access">
+        <field name="name">Access lsd_sale.compra</field>
+        <field name="model_id" ref="model_lsd_sale_compra"/>
+        <field name="group_id" ref="base.group_user"/>
+        <field name="perm_read" eval="True"/>
+        <field name="perm_write" eval="True"/>
+        <field name="perm_create" eval="True"/>
+        <field name="perm_unlink" eval="True"/>
+    </record>
+
+</odoo>
